@@ -15,7 +15,6 @@ import net.minecraft.text.OrderedText;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import org.apache.commons.lang3.StringEscapeUtils;
-import org.jetbrains.annotations.NotNull;
 import vitphire.addons.auto_reply.ReplyAddon;
 
 import java.io.FileNotFoundException;
