@@ -1,11 +1,25 @@
-# Meteor Addon Template
+# Meteor Reply Addon
 
-A template to allow easy usage of the Meteor Addon API.
+A Meteor addon that automatically replies to messages.
 
 ### How to use:  
 - Clone this project
-- Use the template and API to create new modules/commands
-- Run the mod with Meteor.
+- Build it with gradle
+- Put the .jar (from build/libs) into your mods folder
 
-### Documentation
-Check the [wiki](https://github.com/MeteorDevelopment/meteor-addon-template/wiki).
+### Settings
+The "File path" setting must be a valid file path, pointing to a .json file structured like this:
+```json
+{
+    "regex": [
+        {"trigger": "Trigger message 1 (as a regex)",
+            "response": "Response message 1"},
+        {"trigger": "Trigger message 2 (as a regex)",
+            "response": "Response message 2"}
+    ],
+    "normal" : {
+        "Trigger message 3 (not regex)": "Response message 3",
+        "Trigger message 4 (not regex)": "Response message 4"
+    }
+}
+```

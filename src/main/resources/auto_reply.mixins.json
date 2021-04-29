@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "meteordevelopment.addons.example.mixins",
+  "package": "vitphire.addons.auto_reply.mixins",
   "compatibilityLevel": "JAVA_8",
   "client": [
   ],
