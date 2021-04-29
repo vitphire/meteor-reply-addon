@@ -1,10 +1,11 @@
 {
-  "required": true,
-  "package": "vitphire.addons.auto_reply.mixins",
-  "compatibilityLevel": "JAVA_8",
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+    "required": true,
+    "package": "vitphire.addons.auto_reply.mixins",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "ChatHudMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
 }
